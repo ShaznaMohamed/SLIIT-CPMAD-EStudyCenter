@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Map</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-buttons end>
+    <button ion-button (click)="addMarker()"><ion-icon name="pin"></ion-icon>    Current Location</button>
+  </ion-buttons>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>From</ion-label>
+      <ion-input type="text" [(ngModel)]="start"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>To</ion-label>
+      <ion-input type="text" [(ngModel)]="end"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-buttons end>
+
+    <button ion-button (click)="calculateAndDisplayRoute()"><ion-icon name="navigate"></ion-icon>   Get Direction</button>
+
+    <button ion-button (click)="DistanceMap()"><ion-icon name="paper-plane"></ion-icon>   Get Distance</button>
+  </ion-buttons>
+  <div id="output"></div>
+  <div style="width:100%; height:100%" #map="" id="map"></div>
+</ion-content>

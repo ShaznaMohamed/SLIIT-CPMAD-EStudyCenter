@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Courses</ion-title>
+
+    <!--<ion-buttons end>
+      <button ion-button icon-only (click)="presentFilter()">
+        <ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
+      </button>
+    </ion-buttons>-->
+
+  </ion-navbar>
+<!--
+    <ion-toolbar no-border-top>
+    <ion-searchbar color="primary"
+                   [(ngModel)]="queryText"
+                   ng-value="speakers"
+                   (ionInput)="updateSchedule()"
+                   placeholder="Search">
+    </ion-searchbar>
+  </ion-toolbar>-->
+  
+</ion-header>
+
+<ion-content class="outer-content speaker-list">
+ 
+    <ion-grid fixed>
+      <ion-row align-items-stretch>
+
+        <ion-col col-12 col-md-6 align-self-stretch align-self-center *ngFor="let speaker of speakers">
+  <!--<ion-list *ngFor="let speaker of speakers">
+    <ion-item class="item-list">-->
+          <ion-card class="speaker-card">
+              <ion-card-content class="outer-content" >
+        
+              <button ion-item detail-none (click)="goCampTypeDetail(speaker)">
+                
+                  <img [src]="speaker.profilePic" alt="Destination profile pic">
+                 
+                <h1 text-center>{{speaker.name}}</h1>
+              </button>
+           
+            </ion-card-content>
+          </ion-card>
+    <!--</ion-item>
+  </ion-list>-->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+</ion-content>

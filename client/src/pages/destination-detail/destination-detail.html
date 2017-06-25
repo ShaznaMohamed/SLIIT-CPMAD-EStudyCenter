@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{speaker.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="speaker-detail">
+  <div text-center>
+    <img [src]="speaker.profilePic1" [alt]="speaker.name"><br>
+  </div>
+  <hr>
+  <p text-center >{{speaker.about}}</p>
+</ion-content>

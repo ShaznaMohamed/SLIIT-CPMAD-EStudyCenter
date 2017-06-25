@@ -1,0 +1,369 @@
+{
+
+
+  "schedule": [{
+    "date": "2047-05-17",
+    "groups": [{
+      "time": "January, 2018",
+      "sessions": [{
+        "name": "Semester start",
+        "timeStart": "12-01-2018",
+        "timeEnd": "12-01-2018",
+        "location": "Semester of all courses will start",
+        "tracks": ["Semester start"]
+      }]
+    }, {
+      "time": "February, 2018",
+      "sessions": [{
+        "name": "Mid term examination",
+        "location": "Excluding Architecturing courses",
+        "description": "Mid term examination will start by the specified date abow. All the courses will be subjected within this date period except the architecturing course students. Students are advised to get ready. Good luck",
+        "speakerNames": ["Mid Term"],
+        "timeStart": "02-02-2018",
+        "timeEnd": "15-02-2018",
+        "tracks": ["Mid Term Examination"]
+      }, {
+        "name": "Online examination",
+        "location": "Fourth floor lab",
+        "description": "Online examination for all lab sessions of all courses will be conducted within the above period.",
+        "speakerNames": ["Online Examination"],
+        "timeStart": "20-02-2018",
+        "timeEnd": "28-02-2018",
+        "tracks": ["Online examination"]
+      },
+      {
+        "name": "Continuous Assesment",
+        "location": "Fourth floor lab",
+        "description": "Continuous examination will start by the specified date abow. All the courses will be subjected within this date period except the architecturing course students. Students are advised to get ready. Good luck",
+        "speakerNames": ["Continuous Assesment"],
+        "timeStart": "18-02-2018",
+        "timeEnd": "20-02-2018",
+        "tracks": ["Continuous Assesment"]
+      }, {
+        "name": "Student Forum",
+        "location": "Main Auditorium",
+        "description": "Student forum will be conducted by student council",
+        "speakerNames": ["Student Forum"],
+        "timeStart": "19-02-2018",
+        "timeEnd": "20-02-2018",
+        "tracks": ["Student Forum"]
+      }]
+    }, {
+      "time": "March, 2018",
+      "sessions": [{
+        "name": "Final Exam",
+        "location": "Examination Hall",
+        "description": "Final Exam will be starting on the given date for all the courses.",
+        "speakerNames": ["Final Examination"],
+        "timeStart": "18-03-2018",
+        "timeEnd": "28-03-2018",
+        "tracks": ["Fianl Examination"]
+      }]
+    }, {
+      "time": "April, 2018",
+      "sessions": [{
+        "name": "Semester End",
+        "location": "Semester End",
+        "description": "Semester will end in the above mentioned date and the vaccation will be given from following days",
+        "speakerNames": ["Semester End"],
+        "timeStart": "15-04-2018",
+        "timeEnd": "15-04-2018",
+        "tracks": ["Semester End"]
+      }]
+
+    }]
+  }],
+
+
+  "speakers": [{
+    "name": "Software Engineering",
+    "profilePic": "assets/img/camps/book.jpg",
+    "profilePic1": "assets/img/camps/book1.jpg",
+    "profilePic2": "assets/img/camps/images.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Assignment1 - Develop a Cross platform Mobile App",
+     "camps": [{
+       "camptype": "12-03-2018",
+        "facility": "18-03-2018",
+        "precaution": "Individual",
+        "climate": "Continuous Assesment",
+        "weather": "You may use any technology"
+      }],
+    "email": "mohamed.shazna@gmail.com",
+    "phone": "+941033004"
+  }, {
+    "name": "Information Technology",
+    "profilePic": "assets/img/camps/imagess.jpg",
+    "profilePic1": "assets/img/camps/book1.jpg",
+    "profilePic2": "assets/img/camps/images.jpg",
+    "twitter": "ionicframework",
+    "about": "This course has only one assignment for entire semester",
+    "location": "Develop a mobile app using augmented reality",
+     "camps": [{
+        "camptype": "18-05-2018",
+        "facility": "28-05-2018",
+        "precaution": "Individual",
+        "climate": "Continuous Assesment",
+        "weather": "You may use any technology"
+      }],
+    "email": "charlie@example.com",
+    "phone": "+1-541-754-3010"
+  }],
+
+
+  "map": [{
+    "name": "Sinharaja Camping",
+    "lat": 6.45193,
+    "lng": 80.60927,
+    "center": true
+  }, {
+    "name": "Horton Plains",
+    "lat": 6.82528,
+    "lng": 80.72111,
+    "center": true
+  },{
+    "name": "Ella Camping",
+    "lat": 6.86670,
+    "lng": 81.04655,
+    "center": true
+  }, {
+    "name": "Kitulgala",
+    "lat": 6.98978,
+    "lng": 80.42709,
+    "center": true
+  }, {
+    "name": "Yala National Park",
+    "lat": 6.37098,
+    "lng": 81.51360,
+    "center": true
+  }, {
+    "name": "Udawalawa National Park",
+    "lat": 6.41856,
+    "lng": 80.82335,
+    "center": true
+  }, {
+    "name": "Sri Paada(Adam's Peak)",
+    "lat": 6.80964,
+    "lng": 80.49939,
+    "center": true
+  }, {
+    "name": "Udawalawa National Park",
+    "lat": 6.41856,
+    "lng": 80.82335,
+    "center": true
+  }, {
+    "name": "Kuckles Mountain",
+    "lat": 7.44239,
+    "lng": 80.78096,
+    "center": true
+  }, {
+    "name": "Veddha Village (Dambana)",
+    "lat": 7.41304,
+    "lng": 81.11180,
+    "center": true
+  }],
+
+
+  
+  "camptypes": [{
+    "name": "Information Technology",
+    "profilePic": "assets/img/camps/book.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "burt@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Computer Science",
+    "profilePic": "assets/img/camps/book1.jpg",
+    "twitter": "ionicframework",
+     "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "charlie@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Software Engineering",
+    "profilePic": "assets/img/camps/images.jpg",
+    "twitter": "ionicframework",
+   "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "donald@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Business Engineering",
+    "profilePic": "assets/img/camps/imagess.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "eva@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "System Engineering",
+    "profilePic": "assets/img/camps/book.jpg",
+    "twitter": "ionicframework",
+   "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "ellie@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Civil Engineering",
+    "profilePic": "assets/img/camps/book1.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "gino@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Architecturing",
+    "profilePic": "assets/img/camps/images.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "isabella@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Hospitality Management",
+    "profilePic": "assets/img/camps/imagess.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "karl@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Electronic Engineering",
+    "profilePic": "assets/img/camps/book.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "lionel@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Civil Engineering",
+    "profilePic": "assets/img/camps/book1.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "molly@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Networking",
+    "profilePic": "assets/img/camps/images.jpg",
+    "twitter": "ionicframework",
+    "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "paul@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Information System",
+    "profilePic": "assets/img/camps/imagess.jpg",
+    "twitter": "ionicframework",
+   "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "rachel@example.com",
+    "phone": "+1-541-754-3010"
+  }, {
+    "name": "Business Management",
+    "profilePic": "assets/img/camps/book.jpg",
+    "twitter": "ionicframework",
+     "about": "This course is provided by expreianced lectures for a full time basis. Students are given with practical and technological experience through our labsessions and the lecture, tutorials",
+    "location": "Everywhere",
+     "camps": [{
+        "sellers": "Computing, Networking, Data communication, Security Management",
+        "features": "Four year course",
+        "Numberofpeople": "full day - weekday schedule",
+        "quality": "Two semesters per year",
+        "opensize": "Mid term, Final and CA"
+      }],
+    "email": "ted@example.com",
+    "phone": "+1-541-754-3010"
+  }]
+
+
+
+}
+

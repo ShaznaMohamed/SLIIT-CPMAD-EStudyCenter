@@ -1,0 +1,58 @@
+import { Component } from "@angular/core";
+import { NavController, ModalController } from 'ionic-angular';
+import { AddReviewPage } from '../add-review/add-review';
+import { ReviewsProvider } from '../../providers/reviews/reviews';
+import { Http} from '@angular/http';
+ 
+@Component({
+  selector: 'home-page',
+  templateUrl: 'home.html',
+  providers: [Http]
+})
+export class HomePage {
+ 
+  reviews: any;
+ 
+  constructor(public nav: NavController, public reviewService: ReviewsProvider, public modalCtrl: ModalController) {
+ 
+  }
+ 
+  ionViewDidLoad(){
+ 
+    this.reviewService.getReviews().then((data) => {
+      console.log(data);
+      this.reviews = data;
+    });
+ 
+  }
+ 
+  addReview(){
+ 
+    let modal = this.modalCtrl.create(AddReviewPage);
+    
+    modal.onDidDismiss((review:any) => {
+      if(review){
+        this.reviews.push(review);
+        this.reviewService.createReview(review);        
+      }
+    });
+ 
+    
+    modal.present();
+ 
+  }
+ 
+  deleteReview(review:any){
+ 
+    //Remove locally
+      let index = this.reviews.indexOf(review);
+ 
+      if(index > -1){
+        this.reviews.splice(index, 1);
+      }   
+ 
+    //Remove from database
+    this.reviewService.deleteReview(review._id);
+  }
+ 
+}

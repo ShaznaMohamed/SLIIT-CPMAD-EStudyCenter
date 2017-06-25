@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{speaker.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="speaker-detail">
+  <div text-center>
+   
+    <h1>Assignments</h1>
+  </div>
+  <h3><p text-center>{{speaker.location}}</p></h3>
+  <hr>
+  <h4><p>Details</p></h4>
+  <ion-list>
+      <ion-item *ngFor="let camps of speaker.camps" >        
+        <h5>Start Date                        :-   {{camps.camptype}}</h5>
+        <h5>End Date                          :-   {{camps.facility}}</h5>
+        <h5>Individual/Collaborative          :-   {{camps.precaution}}</h5>
+        <h5>Examination Type                  :-   {{camps.climate}}</h5>
+        <h5>Other Notes                       :-   {{camps.weather}}</h5>
+      </ion-item>
+  </ion-list>
+  <div bottom-right text-right>
+      <img [src]="speaker.profilePic2" [alt]="speaker.name">
+  </div>
+</ion-content>

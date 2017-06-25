@@ -1,0 +1,44 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-buttons end *ngIf="showSkip">
+      <button ion-button (click)="startApp()" color="primary">Skip</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
+
+    <ion-slide>
+      <img src="assets/img/camps/book1.jpg" class="slide-image"/>
+      <h2 class="slide-title">
+        Welcome to <b>E - Study Center</b>
+      </h2>
+      <p>
+        <b>E - Study Center</b> is a guidance app for collaborate students with lecturers to find information and organise their course studies.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/camps/book.jpg" class="slide-image"/>
+      <h2 class="slide-title" >What You Can Do?</h2>
+      <p>View Semester plan, course details and share them, enroll any course and get infromation about all the courses provided.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/camps/images.jpg" class="slide-image"/>
+      <h2 class="slide-title">What More....?</h2>
+      <p>Collaborate with your lectures, contact over phone, email and chat through the app.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/camps/imagess.jpg" class="slide-image"/>
+      <h2 class="slide-title">Ready to Start?</h2>
+      <button ion-button icon-right large clear (click)="startApp()">
+        Continue
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
